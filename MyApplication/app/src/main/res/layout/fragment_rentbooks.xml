@@ -3,9 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.rentbooks.RentBooks">
+    tools:context=".ui.rentbooks.RentBooksFragment">
 
     <TextView
+        android:id="@+id/text_rentbook"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
