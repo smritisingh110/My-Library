@@ -19,4 +19,8 @@
     <string name="this_is_store_fragment">This is Store fragment</string>
     <string name="this_is_your_book_fragment">This is your book fragment</string>
     <string name="this_is_rent_book_fragment">This is Rent book fragment</string>
+    <string name="login">Login</string>
+    <string name="user_name_email_id">User name/ Email id</string>
+    <string name="password">Password</string>
+    <string name="don_t_have_an_account_create_account">Don\'t have an account / Create Account</string>
 </resources>
