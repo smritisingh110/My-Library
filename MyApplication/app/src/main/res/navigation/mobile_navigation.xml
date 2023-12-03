@@ -12,14 +12,34 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
+        android:id="@+id/nav_AllBooks"
         android:name="com.example.myapplication.ui.store.StoreFragment"
-        android:label="@string/menu_profile"
+        android:label="@string/Menu_store_Books"
         tools:layout="@layout/fragment_store" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
+        android:id="@+id/nav_profile"
         android:name="com.example.myapplication.ui.profile.ProfileFragment"
-        android:label="@string/Menu_store_Books"
+        android:label="@string/menu_profile"
         tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_rentBook"
+        android:name="com.example.myapplication.ui.rentbooks.RentBooksFragment"
+        android:label="@string/menu_rents_books"
+        tools:layout="@layout/fragment_rentbooks" />
+
+    <fragment
+        android:id="@+id/nav_notes"
+        android:name="com.example.myapplication.ui.notes.NotesFragment"
+        android:label="@string/menu_rents_books"
+        tools:layout="@layout/fragment_notes" />
+
+    <fragment
+        android:id="@+id/nav_yourBook"
+        android:name="com.example.myapplication.ui.yourbooks.YourbooksFragment"
+        android:label="@string/menu_rents_books"
+        tools:layout="@layout/fragment_yourbooks" />
+
+
 </navigation>
