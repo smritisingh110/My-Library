@@ -13,4 +13,10 @@
     <string name="menu_rents_books">Rent\'s Books</string>
     <string name="menu_buy_Books">Your Books</string>
     <string name="menu_notes">Your Notes</string>
+    <string name="home_window">Home Window</string>
+    <string name="this_is_notes_fragment">This is Notes fragment</string>
+    <string name="this_is_profile_fragement">This is profile Fragement</string>
+    <string name="this_is_store_fragment">This is Store fragment</string>
+    <string name="this_is_your_book_fragment">This is your book fragment</string>
+    <string name="this_is_rent_book_fragment">This is Rent book fragment</string>
 </resources>

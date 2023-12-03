@@ -13,7 +13,7 @@
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textSize="20sp"
-        android:text="This is Rent book fragment"
+        android:text="@string/this_is_rent_book_fragment"
         />
 
 </FrameLayout>

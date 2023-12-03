@@ -10,7 +10,7 @@ public class RentbooksViewModel extends ViewModel {
 
     public RentbooksViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is home fragment");
+        mText.setValue("This is rentBook fragment");
     }
 
     public LiveData<String> getText() {
