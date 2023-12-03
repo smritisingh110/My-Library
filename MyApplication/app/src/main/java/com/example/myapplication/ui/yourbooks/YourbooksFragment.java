@@ -24,14 +24,14 @@ public class YourbooksFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        YourbooksViewModel yourbookViewModel =
+        YourbooksViewModel yourbooksViewModel =
                 new ViewModelProvider(this).get(YourbooksViewModel.class);
 
         binding = FragmentYourbooksBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         final TextView textView = binding.textYourbook;
-        yourbookViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        yourbooksViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

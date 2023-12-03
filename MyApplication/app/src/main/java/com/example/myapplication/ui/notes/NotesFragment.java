@@ -20,7 +20,7 @@ public class NotesFragment extends Fragment {
 
     private FragmentNotesBinding binding;
 
-    @Override
+
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
         NotesViewModel notesViewModel =
